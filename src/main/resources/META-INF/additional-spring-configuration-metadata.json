@@ -1,0 +1,18 @@
+{
+  "properties": [
+    {
+      "name": "spring.jpa.hibernate.format-sql",
+      "type": "java.lang.String",
+      "description": "Description for spring.jpa.hibernate.format-sql."
+    },
+    {
+      "name": "spring.mvc.resources.static-locations",
+      "type": "java.lang.String",
+      "description": "Description for spring.mvc.resources.static-locations."
+    },
+    {
+      "name": "spring.mvc.resources.static-locations",
+      "type": "java.lang.String",
+      "description": "Description for spring.mvc.resources.static-locations."
+    }
+  ] }

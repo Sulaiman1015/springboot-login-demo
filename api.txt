@@ -1,0 +1,13 @@
+REST APIs request list
+
+1: get all emp list by get request
+api: http://localhost:8081/api/v1/emplist
+
+2: create new emp by post request
+api: http://localhost:8081/api/v1/emplist
+
+3: updat emp info by put request
+api: http://localhost:8081/api/v1/emplist/{id}
+
+4: delete one emp by delete request whit id
+api: http://localhost:8081/api/v1/emplist/{id}
