@@ -1,4 +1,4 @@
-package com.springboot.hrmbackend;
+package com.springboot.logindemo;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
@@ -17,12 +17,7 @@ public class WebApplication {
 
   public static void main(String[] args) throws UnknownHostException {
     ConfigurableApplicationContext application = SpringApplication.run(WebApplication.class, args);
-    /*System.out.println(
-            "  ____  __  __    ___    ___     __    ____    ____  \n" +
-                    " /',__\\/\\ \\/\\ \\  /'___\\ /'___\\ /'__`\\ /',__\\  /',__\\ \n" +
-                    "/\\__, `\\ \\ \\_\\ \\/\\ \\__//\\ \\__//\\  __//\\__, `\\/\\__, `\\\n" +
-                    "\\/\\____/\\ \\____/\\ \\____\\ \\____\\ \\____\\/\\____/\\/\\____/\n" +
-                    " \\/___/  \\/___/  \\/____/\\/____/\\/____/\\/___/  \\/___/ \n");*/
+
     Environment env = application.getEnvironment();
     String ip = InetAddress.getLocalHost().getHostAddress();
     String port = env.getProperty("server.port");
